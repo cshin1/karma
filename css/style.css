@@ -1,0 +1,132 @@
+body {
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	display: block;	
+	border-bottom: 1px solid #ddd;
+	position: fixed;
+	background-color: #fff;
+}
+
+#nav_content {
+	width: 970px;
+	margin: 0 auto;
+	vertical-align: bottom;
+	padding: 14px 0;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+	padding-top: 14px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 13px;
+}
+
+nav ul li a {
+	font-weight: 300;
+	color: #aaa;
+	font-size: 1.1rem;
+}
+
+#logo {
+	display: inline-block;
+	height: 40px;
+}
+
+a {
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	font-weight: 100;
+	font-size: 3.125rem;
+}
+
+h2 {
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	font-weight: 100;
+	padding-top: 20px;
+	font-size: 1.55rem;
+}
+
+h3 {
+	font-family: Roboto, sans-serif;
+}
+
+
+#hero {
+	background-image: url("../images/first-background.jpg");
+	height: 730px;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+#hero_content {
+	display: block;
+	padding-top: 280px;
+	text-align: center;
+}
+
+#hero_content a {
+	display: inline-block;
+	margin-top: 25px;
+	padding: 18px 32px;
+	border-radius: 0.3rem;
+	background-color: #F0592C;
+	color: #fff;
+}
+
+section {
+	display: block;
+	text-align: center;
+}
+
+section .col {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	margin-top: 50px;
+	vertical-align: top;
+}
+
+section h1 {
+	color: #333;
+	font-weight: 300;
+	font-size: 2.75rem;
+	text-align: center;
+	margin-top: 125px;
+}
+
+section h2 {
+	color: #333;
+	font-weight: 400;
+}
+
+section img {
+	width: 125px;
+	height: auto;
+}
+
+footer {
+	display: block;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	margin: 150px 23%;
+	padding-top: 20px;
+}
+
+footer h4 {
+	padding-top: 10px;
+	color: #aaa;
+	font-weight: 100;
+}
